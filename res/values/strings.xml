@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="edit_address">Edit Place</string>
+    <string name="seach_button">Search</string>
+    <string name="empty_result">No Placed Were Found</string>
+    <string name="close_button">Close</string>
+    <string name="venue_name">Venue Name</string>
+    <string name="contact_phone">Contact Phone</string>
+    <string name="address">Address</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="title_activity_preferences">PreferencesActivity</string>
+    <!-- Preferences Values -->
+    <string name="preference_enable_gps_key">enableGps</string>
+    <string name="preference_gps_title">Use GPS</string>
+    <string name="preference_gps_summary">Calculate distance based on current GPS location</string>
+    <!-- Navigation Drawer Option -->
+    <string name="first_option">First Option</string>
+    <string name="second_option">Second Option</string>
+    <string name="third_option">Third Option</string>
+    <string name="fourth_option">Fourth Option</string>
+    <!-- Navigation Drawer Menu -->
+    <string name="drawer_open">Open</string>
+	<string name="drawer_close">Close</string>    
+    
+    <string-array name="drawer_options">
+        <item>@string/first_option</item>
+        <item>@string/second_option</item>
+        <item>@string/third_option</item>
+        <item>@string/fourth_option</item>
+	</string-array>
+</resources>

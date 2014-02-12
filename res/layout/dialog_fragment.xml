@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:paddingLeft="10dp"
+	    android:paddingBottom="10dp">
+	
+		<TableLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical">    
+		    
+		   <TableRow android:padding="5dp">
+		       
+		       <TextView
+			        android:id="@+id/name_text"
+			        android:layout_weight="1"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content"        
+			        android:text="@string/venue_name"
+			        android:singleLine="false"	        
+			        android:textSize="15sp" />
+		    
+			    <TextView
+			        android:id="@+id/name_value"
+			        android:layout_weight="2"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content"        	        
+			        android:singleLine="false"	        
+			        android:textSize="15sp" />	   
+		    
+		    </TableRow>
+		    
+		    <TableRow android:padding="5dp">
+		    
+			    <TextView
+			        android:id="@+id/contact_phone_number_text"
+			        android:layout_weight="1"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content"        
+			        android:text="@string/contact_phone"
+			        android:singleLine="false"	        
+			        android:textSize="15sp" />
+			    
+			    <TextView android:id="@+id/contact_phone_number_value"        
+			        android:layout_weight="2"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content"                	        	                
+			        android:textSize="15sp" />
+		    
+		    </TableRow>    
+		    
+		    <TableRow android:padding="5dp">
+		        
+		        <TextView android:id="@+id/address_text"        
+			        android:layout_weight="1"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content"  
+			        android:text="@string/address"	               
+			        android:textSize="15sp" />
+		    
+				<TextView android:id="@+id/address_value"        
+			        android:layout_weight="2"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content"  		        	                  
+			        android:textSize="15sp" />
+			
+			</TableRow>
+			
+		    <TableRow android:padding="5dp">
+		        
+		        <TextView android:id="@+id/city_text"        
+			       	android:layout_weight="1"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content"  
+			        android:text="@string/city"      
+			        android:textSize="15sp" />
+			
+				<TextView android:id="@+id/city_value"        
+			      	android:layout_weight="2"
+			        android:layout_width="0dp"
+			        android:layout_height="wrap_content"  		               
+			        android:textSize="15sp" />
+			  
+			</TableRow>        
+		        
+		    <TableRow android:padding="5dp">
+		        
+		        <TextView android:id="@+id/state_text"        
+			      	android:layout_weight="1"
+			        android:layout_width="0dp"	        
+			        android:layout_height="wrap_content"  
+			        android:text="@string/state"     	           
+			        android:textSize="15sp" />
+		        
+				<TextView android:id="@+id/state_value"        
+			      	android:layout_weight="2"
+			        android:layout_width="0dp"	        
+			        android:layout_height="wrap_content"  		             	            
+			        android:textSize="15sp" />
+			
+			</TableRow>		      
+		
+		</TableLayout>
+		
+		 <Button android:id="@+id/close_button"         
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/close_button">        
+	    </Button>   
+	
+	</LinearLayout>
+
+</RelativeLayout>
